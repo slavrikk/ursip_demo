@@ -1,0 +1,25 @@
+###
+POST http://localhost:8080/test/
+Content-Type: application/json
+
+{
+  "name": "test_1",
+  "documentId": "6986534b-204e-4646-ba19-51df485fc5bf",
+  "dictionaryValueId": "778b6d62-3ac2-4827-9a48-749eb8bcdc44"
+}
+
+###
+GET http://localhost:8080/test/09b79a41-cd15-409d-9b43-d2d7d71ba3e3
+
+###
+DELETE http://localhost:8080/test/09b79a41-cd15-409d-9b43-d2d7d71ba3e3
+
+###
+PATCH http://localhost:8080/test/09b79a41-cd15-409d-9b43-d2d7d71ba3e3
+Content-Type: application/json
+
+{
+  "name": "test_4",
+  "documentId": "6986534b-204e-4646-ba19-51df485fc5bf",
+  "dictionaryValueId": "778b6d62-3ac2-4827-9a48-749eb8bcdc44"
+}
